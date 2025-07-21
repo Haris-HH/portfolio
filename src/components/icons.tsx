@@ -1,5 +1,4 @@
 import { GlobeIcon, MailIcon } from "lucide-react";
-import { useTheme } from "next-themes";
 
 export type IconProps = React.HTMLAttributes<SVGElement> & {
   size?: number | string;

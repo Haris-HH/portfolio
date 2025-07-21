@@ -1,7 +1,6 @@
 "use client";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "./ui/badge";
 import { Card, CardHeader } from "./ui/card";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";

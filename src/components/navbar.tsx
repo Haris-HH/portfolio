@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import { Dock, DockIcon } from "@/components/magicui/dock";
 import { ModeToggle } from "@/components/mode-toggle";
 import { buttonVariants } from "@/components/ui/button";
@@ -12,7 +11,7 @@ import {
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { Th, Gb, Gi } from "react-flags-select"
+import { Th, Gb } from "react-flags-select"
 
 // Components
 import Gif from "../components/gif";
@@ -56,7 +55,7 @@ export default function Navbar() {
           ))}
           <Separator orientation="vertical" className="h-full" />
           {Object.entries(DATA.contact.social)
-            .filter(([_, social]) => social.navbar)
+            .filter(([, social]) => social.navbar)
             .map(([name, social]) => (
               <DockIcon key={name}>
                 <Tooltip>

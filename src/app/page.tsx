@@ -31,10 +31,7 @@ export default function Page() {
   const { i18n, t } = useTranslation();
   // Theme
   const { theme } = useTheme();
-
-  // Get scroll progress from 0 to 1
-  const { scrollYProgress } = useScroll();
-
+  
   const SkillsSection = () => {
     const { ref, inView } = useInView({ threshold: 0.3 });
     const [windowHeight, setWindowHeight] = useState(0);
@@ -62,7 +59,7 @@ export default function Page() {
     const { scrollY } = useScroll();
 
     // Track Y offset of the skills section relative to viewport
-    const yRange = useTransform(scrollY, (latest) => {
+    const yRange = useTransform(scrollY, () => {
       if (!skillsRef.current || windowHeight === 0) return 0;
       const rect = skillsRef.current.getBoundingClientRect();
       return Math.min(Math.max(windowHeight - rect.top, 0), windowHeight);
