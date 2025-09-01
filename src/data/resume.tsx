@@ -11,7 +11,7 @@ export const DATA = {
   description_th:
     "นักพัฒนา Full-Stack — ผมหลงใหลในการสร้างสรรค์สิ่งใหม่",
   summary_en: "I'm a Full-Stack Developer with a passion for creating innovative solutions. I have experience in various technologies and enjoy working on both the front-end and back-end of applications. My goal is to build user-friendly and efficient software that meets the needs of users.",
-  summary_th: "ฉันคือนักพัฒนา Full-Stack ผู้มีใจรักในการสร้างสรรค์โซลูชันใหม่ ๆ อย่างมีนวัตกรรม ด้วยประสบการณ์ในเทคโนโลยีหลากหลาย ผมสนุกกับการทำงานทั้งในส่วนของ Front-End และ Back-End เป้าหมายของผมคือการพัฒนาโปรแกรมที่ใช้งานง่าย มีประสิทธิภาพ และตอบโจทย์ความต้องการของผู้ใช้ง่าย",
+  summary_th: "นักพัฒนา Full-Stack ผู้มีใจรักในการสร้างสรรค์โซลูชันใหม่ ๆ อย่างมีนวัตกรรม ด้วยประสบการณ์ในเทคโนโลยีหลากหลาย ผมสนุกกับการทำงานทั้งในส่วนของ Front-End และ Back-End เป้าหมายของผมคือการพัฒนาโปรแกรมที่ใช้งานง่าย มีประสิทธิภาพ และตอบโจทย์ความต้องการของผู้ใช้ง่าย",
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
   ],
