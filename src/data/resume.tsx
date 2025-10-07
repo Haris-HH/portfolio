@@ -113,6 +113,8 @@ export const DATA = {
     "Material UI",
     "Shadcn UI",
     "Magic UI",
+    "Vite",
+    "Next.js",
   ],
   skillImages: [
     "react",
@@ -128,17 +130,88 @@ export const DATA = {
     "shadcn",
     "magicUi",
     "mui",
+    "vite",
+    "nextjs",
   ],
   projects: [
     {
-      title: "CCTV Detect Vehicle",
+      title: "Auto Lane",
       href: "",
-      dates: "Oct 2024 - Present",
+      dates: "Mar 2025 - Apr 2025",
       active: true,
       description_en:
-        "Developed a real-time frontend web application to display vehicle detection events and manage watchlist entries—allowing users to flag vehicles at specific threat levels (e.g., Blacklist for terrorism or stolen cases).",
+        "Developed a new feature that displays real-time values, including the number of unlawful vehicles, the weather, and the number of illegal events recorded by each CCTV camera. Allow users to search for detected vehicle plates by number, province, plate group, and vehicle color, brand, or model. ",
       description_th:
-        "พัฒนาเว็บแอปพลิเคชันแบบเรียลไทม์สำหรับแสดงเหตุการณ์การตรวจจับยานพาหนะ และจัดการรายการเฝ้าระวัง โดยเปิดให้ผู้ใช้สามารถตั้งค่ายานพาหนะตามระดับความเสี่ยง เช่น การขึ้นบัญชีดำกรณีเกี่ยวข้องกับการก่อการร้ายหรือรถถูกขโมย",
+        "พัฒนาฟีเจอร์ใหม่ที่แสดงค่าแบบเรียลไทม์ ซึ่งรวมถึงจำนวนรถผิดกฎหมาย สภาพอากาศ และจำนวนเหตุการณ์ผิดกฎหมายที่บันทึกโดยกล้องวงจรปิดแต่ละตัว ช่วยให้ผู้ใช้ค้นหาป้ายทะเบียนรถที่ตรวจพบได้ตามหมายเลข จังหวัด กลุ่มป้ายทะเบียน และสี ยี่ห้อ หรือรุ่นของรถ",
+      technologies: [
+        "Typescript",
+        "HTML",
+        "CSS",
+        "React",
+        "Node.js",
+        "Material UI",
+        "Git",
+      ],
+      links: [
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Nsb Group Mgnt",
+      href: "",
+      dates: "Feb 2025 - May 2025",
+      active: true,
+      description_en:
+        "Developed a new feature that displays approved user and able to edit user information. Give users the option to search for approved user by nation id, first name, last name etc. ",
+      description_th:
+        "พัฒนาฟีเจอร์ใหม่ที่จะแสดงผู้ใช้ที่ได้รับอนุมัติและสามารถแก้ไขข้อมูลผู้ใช้ได้ ให้ผู้ใช้สามารถค้นหาผู้ใช้ที่ได้รับอนุมัติตามรหัสประเทศ ชื่อ นามสกุล ฯลฯ",
+      technologies: [
+        "Typescript",
+        "HTML",
+        "CSS",
+        "React",
+        "Node.js",
+        "Material UI",
+        "Git",
+      ],
+      links: [
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "LPR Center",
+      href: "",
+      dates: "Jan 2025 - Present",
+      active: true,
+      description_en:
+        "Created a web application for collect data of all police station that uses CCTV cameras to display detected realtime vehicle plates and has a menu for adding additional, unique vehicle plate detection features. Provide a function for managing LPR Center and LPR Checkpoint users. Give users the option to search for detected vehicle plates by province, plate group, plate number, etc and able to print result.",
+      description_th:
+        "สร้างเว็บแอปพลิเคชันสำหรับรวบรวมข้อมูลของสถานีตำรวจทุกแห่ง โดยใช้กล้องวงจรปิดเพื่อแสดงป้ายทะเบียนรถที่ตรวจพบแบบเรียลไทม์ และมีเมนูสำหรับเพิ่มฟีเจอร์การตรวจจับป้ายทะเบียนรถเพิ่มเติม มีฟังก์ชันสำหรับจัดการผู้ใช้ LPR Center และ LPR Checkpoint ผู้ใช้สามารถค้นหาป้ายทะเบียนรถที่ตรวจพบตามจังหวัด กลุ่มป้ายทะเบียน หมายเลขป้ายทะเบียน ฯลฯ และสามารถพิมพ์ผลลัพธ์ได้",
+      technologies: [
+        "Typescript",
+        "HTML",
+        "CSS",
+        "React",
+        "Node.js",
+        "Material UI",
+        "Git",
+      ],
+      links: [
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "LPR Checkpoint",
+      href: "",
+      dates: "Nov 2024 - Present",
+      active: true,
+      description_en:
+        "Created a web application for every police station that uses CCTV cameras to display detected realtime vehicle plates and has a menu for adding additional, unique vehicle plate detection features. Give users the option to search for detected vehicle plates by province, plate group, plate number, etc and able to print result.",
+      description_th:
+        "สร้างเว็บแอปพลิเคชันสำหรับสถานีตำรวจทุกแห่งที่ใช้กล้องวงจรปิดเพื่อแสดงป้ายทะเบียนรถที่ตรวจพบแบบเรียลไทม์ และมีเมนูสำหรับเพิ่มฟีเจอร์ตรวจจับป้ายทะเบียนรถเพิ่มเติม ช่วยให้ผู้ใช้มีตัวเลือกในการค้นหาป้ายทะเบียนรถที่ตรวจพบตามจังหวัด กลุ่มป้ายทะเบียน หมายเลขป้ายทะเบียน ฯลฯ และสามารถพิมพ์ผลลัพธ์ได้",
       technologies: [
         "Typescript",
         "HTML",

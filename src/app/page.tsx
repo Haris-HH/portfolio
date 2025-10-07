@@ -107,6 +107,8 @@ export default function Page() {
                   <Icons.tailwind key="tailwind" size={100} />,
                   <Icons.shadcn key="shadcn" size={100} theme={theme} />,
                   <Icons.magicUi key="magicUi" size={100} />,
+                  <Icons.vite key="vite" size={100} />,
+                  <Icons.nextjs key="nextjs" size={100} theme={theme} />,
                 ]}
               />
             </BlurFade>
